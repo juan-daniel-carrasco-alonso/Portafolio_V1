@@ -398,13 +398,31 @@ footer {
 
 /* Adaptable (Responsivo) */
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .seccion-texto {
         font-size: 1rem;
     }
     
     .overlay p {
-        font-size: 12px;
+        font-size: 13px;
+    }
+
+    .overlay i {
+        font-size: 40px;
+    }
+
+    footer {
+        min-width: 300px;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .seccion-texto {
+        font-size: 1rem;
+    }
+    
+    .overlay p {
+        font-size: 13px;
     }
 
     .overlay i {
