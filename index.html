@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Juan Daniel Carrasco Alonso">
+    <meta name="description" content="Portafolio de desarrollo web de Juan Daniel, verión numero 1">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Titulo -->
+    <title>D.A. | Portafolio V1</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/icono.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="#">
+                <img id="logo_inicio" src="img/icono.png" width="70" alt="Logo de la pagina Web">
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" style="color: white" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#proyectos-recientes">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#testimonios">Educación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: white" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Seccion Hero o Principal -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img id="yo" class="hero-imagen-desarrollador" src="img/imagen.png" alt="Foto de Juan Daniel Carrasco Alonso">
+            <h1>Hola soy Juan Daniel Carrasco Alonso</h1>
+            <h2>Estudiante de Ingeniería en Sistemas de Teconologías de Información Industrial.</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="img/hero-inferior.svg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React">
+        </div>
+    </section> 
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-obscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Conoce a Juan Daniel</h2>
+            <p class="seccion-texto">Soy estudiante de Ingeniería en Sistemas y Tecnologías de la Información Industrial en la Benemérita Universidad Autónoma de Puebla, actualmente cursando el septimo semestre de mi carrera. Durante mis estudios, he adquirido una sólida base en programación, desarrollo de software y gestión de bases de datos.
+                He tenido la oportunidad de participar en varios proyectos académicos que me han permitido aplicar mis conocimientos teóricos en situaciones prácticas, lo cual ha fortalecido mis capacidades para resolver problemas y trabajar en equipo. Estoy abierto a oportunidades de prácticas, pasantías y colaboraciones que me permitan adquirir experiencia en el campo y aplicar mis habilidades en entornos reales.</p> 
+        </div>
+    </section>
+
+    <!-- Experiencias -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo web -->
+                 <div class="columna col-12 col-md-4">
+                    <i class="bi bi-globe2"></i>
+                    <p class="experiencia-titulo">Desarrollo Web</p>
+                    <p>Parrafo con la Información que le voy a poner gg.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">React</span>
+                        <span class="badge text-bg-primary">PHP</span>
+                        <span class="badge text-bg-primary">CodeIgniter 4</span>
+                        <span class="badge text-bg-primary">MySQL</span>
+                    </div>
+                 </div>
+                <!-- Articulos  -->
+                 <div class="columna col-12 col-md-4">
+                    <i class="bi bi-bar-chart-line"></i>
+                    <p class="experiencia-titulo">Análisis de Datos</p>
+                    <p>Parrafo con la Información que le voy a poner gg.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Excel</span>
+                        <span class="badge text-bg-primary">Python</span>
+                        <span class="badge text-bg-primary">Power BI</span>
+                    </div>
+                 </div>
+                <!-- Estudiante -->
+                 <div class="columna col-12 col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Desarrollo de Software de Escritorio</p>
+                    <p>Parrafo con la Información que le voy a poner gg.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">Python</span>
+                        <span class="badge text-bg-primary">Tkinter</span>
+                        <span class="badge text-bg-primary">SQLite</span>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis Proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos en los que he trabajado recientemente...</h3>
+        <!-- Galeria de Poyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto1.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Sistema de Gestión de Solicitudes para el Laboratorio de Ilumniación y Eficiencia Enérgetica del INAOE</p>
+                            <div class="iconos_contenedor">
+                                <!--<a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>-->
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto2.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Sistema Punto de Venta para Maquiladora Sport5</p>
+                            <div class="iconos_contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto3.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Procesamiento de datos del INEGI sobre el Ciberacoso</p>
+                            <div class="iconos_contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto4.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="iconos_contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto5.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <div class="iconos_contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="img/proyecto6.jpg" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <div class="iconos_contenedor">
+                                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+        </div>
+        <!--
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más proyectos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a> -->
+    </section>
+
+    <!-- Constancias -->
+    <section class="articulos justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Constancias y Certificaciones</h2>
+        <div class="card">
+            <div class="card-header">
+              Más recientes
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://drive.google.com/file/d/1ipCsDj40VcxqF47wfPe2ntRYi-IF-i7I/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        12. Certificado de Curso de Técnico en Redes de Datos de Capacitate para el Empleo de la Fundación Carlos Slim
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1kuKizXJYmZ3O10Kem93f1GsrTPm6kNaJ/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        11. Constancia de Participación en el Segundo Encuentro Nacional de Ciencia de Datos
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1hfty0dNniT4Q1HBFYZbAJ7E483dZawx-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        10. Constancia de la BUAP por el Segundo Lugar en la XVI Competencia Feria de Proyectos FEPRO 2024
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1Ze2AXykh-p--DcV2xFulQlTEdDulv1kk/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        9. Reconocimiento de Segundo Lugar en la XVI Competencia Feria de Proyectos FEPRO 2024
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1SXSkTyZ_U3ci-GGfAIPYl1ZTtO2H-axg/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        8. Constancia de Participación en la XVI Competencia Feria de Proyectos FEPRO 2024
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1BVLfQb1_83UjbjIZnm5MPPJQdvPmYiYI/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        7. Constancia de Asistencia a la Conferencia Magistral "Ciberseguridad en la Era de la Inteligencia Artificial" en la XVI Competencia Feria de Proyectos FEPRO 2024
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1KWZ_pqAc4oRbbxSv14VIJEYSUTYHEXPi/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        6. Constancia de Asistencia a la Conferencia "Las Aplicaciones de la IA en el Mundo del 3D Printing" en la XVI Competencia Feria de Proyectos FEPRO 2024
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1v6QAcsoOpeDTIdaxEz9KvSScLB8oCeK-/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        5. Constancia de la BUAP por haber obtenido la disticnión de "Mejor Proyecto Primavera 2024"
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/15FQuUmD1dHSu4AacpQDaBQafIlP4DaDY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        4. Constancia de la BUAP por la presentación del "Mejor Proyecto Otoño 2023"
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1GCakQHuUTwIWmBLahlZne44C-dPBjytf/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        3. Constancia de la BUAP por haber acreditado los talleres del: "5to Encuentro generacional ISTII: Inteligencia emocional y marketing digital"
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1XIPjQVBAykgBR-zobeHOqr2hFocrlnpY/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        2. Certificación de Desarrollo de Apps Móviles de Google Actívate
+                    </li>
+                </a>
+                <a href="https://drive.google.com/file/d/1Xx4_qXxjeC1PPWU65qKqxeRm4y4Mos4R/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">
+                        1. Constancia de Asistencia al "Taller de Big Data en Salud" del CONACYT
+                    </li>
+                </a>
+            </ul>
+          </div>
+          <!--
+          <a href="https://www.freecodecamp.org/espanol/" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver más artículos
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a> -->
+    </section>
+
+     <!--Testimonios-->
+    <section id="testimonios" class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Mi Educación</h2>
+        <h3 class="seccion-descripcion">Actualmente me encuentro estudiando la educación superior...</h3>
+        
+        <!--Carrusel-->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="img/escuela1.png" alt="Foto de Gino">
+                    <p class="testimonio-texto">En la Benemérita Universidad Autónoma de Puebla, estoy cursando el séptimo semestre de la
+                     Ingeniería en Sistemas Tecnologías de la Información Industrial.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">2022 - 2026</p>
+                        <!--<p class="cargo">Gerente de proyectos de Desarrollo Web</p>-->
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                    <img class="testimonio-imagen rounded-circle" src="img/escuela2.png" alt="Foto de Nora">
+                    <p class="testimonio-texto">En el Centro de Bachillerato Tecnologíco Industrial y de Servicios Número 61. Obtuve el grado de Técnico en Programación.</p>
+                    <div class="testimonio-info">
+                        <p class="cliente">2017 - 2020</p>
+                        <!--<p class="cargo">Gerente de Diseña mi Pagina Web</p>-->
+                    </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Siguiente</span>
+            </button>
+          </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-obscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web o de escritorio y haré que tu visión se vuelva realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:creeperdalook.daniel@gmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de Pagina (Footer) -->
+     <footer class="seccion-obscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="img/icono.png" alt="Logo del Portafolio">
+        <p class="footer-texto text-center">Aprendo y creo todos los dias.<br>Creemos un proyecto juntos</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+            <a href="https://wa.me/522471100048?text=Hola" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="https://github.com/juan-daniel-carrasco-alonso/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/juan-daniel-carrasco-alonso/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/danielalonso.1/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="mailto:creeperdalook.daniel@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Daniel Alonso (2025) &#169;</div>
+     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
